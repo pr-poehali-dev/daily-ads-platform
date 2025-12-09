@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,35 +6,35 @@
 
 @layer base {
   :root {
-    --background: 220 13% 97%;
-    --foreground: 220 40% 10%;
+    --background: 0 0% 98%;
+    --foreground: 0 0% 10%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 40% 10%;
+    --card-foreground: 0 0% 10%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 40% 10%;
+    --popover-foreground: 0 0% 10%;
 
-    --primary: 220 40% 10%;
+    --primary: 0 0% 10%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 220 10% 55%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 0 0% 94%;
+    --secondary-foreground: 0 0% 10%;
 
-    --muted: 220 13% 95%;
-    --muted-foreground: 220 10% 45%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
 
-    --accent: 199 89% 48%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 47 96% 53%;
+    --accent-foreground: 0 0% 10%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 220 13% 85%;
-    --input: 220 13% 91%;
-    --ring: 220 40% 10%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 0 0% 10%;
 
-    --radius: 0.25rem;
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 100%;
     --sidebar-foreground: 220 40% 10%;
@@ -92,7 +92,12 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family:
+      "Inter",
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      sans-serif;
   }
 
   h1,
@@ -101,6 +106,11 @@
   h4,
   h5,
   h6 {
-    font-family: "Merriweather", serif;
+    font-family:
+      "Inter",
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      sans-serif;
   }
 }
